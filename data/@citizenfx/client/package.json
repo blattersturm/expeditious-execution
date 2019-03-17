@@ -1,0 +1,38 @@
+{
+  "_from": "@citizenfx/client",
+  "_id": "@citizenfx/client@1.0.1132-1",
+  "_inBundle": false,
+  "_integrity": "sha512-e0ZzS1JYc45TPUPafQ2YPyJgvvT71TteO6G/gNcSMuSShf1ezMLZZw0cT37NiUESOAEmLGYYGRN8gu2OIQOjiA==",
+  "_location": "/@citizenfx/client",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@citizenfx/client",
+    "name": "@citizenfx/client",
+    "escapedName": "@citizenfx%2fclient",
+    "scope": "@citizenfx",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@citizenfx/client/-/client-1.0.1132-1.tgz",
+  "_shasum": "b2e7d273929ab1e77d114a93877d44e11a0c4321",
+  "_spec": "@citizenfx/client",
+  "_where": "W:\\servers\\expeditious\\data",
+  "author": "",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Typings for the CitizenFX client JS API.",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "@citizenfx/client",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1132-1"
+}
