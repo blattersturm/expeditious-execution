@@ -1,0 +1,4 @@
+## Edit the following lines and **uncomment them** by removing the # in front of them.
+
+#set sv_licensekey "KEY"
+#set rcon_password "PASSWORD"
