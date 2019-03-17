@@ -1,0 +1,3 @@
+[submodule "cfx-server-data"]
+	path = cfx-server-data
+	url = https://github.com/citizenfx/cfx-server-data.git
