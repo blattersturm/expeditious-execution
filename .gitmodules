@@ -1,3 +1,6 @@
 [submodule "cfx-server-data"]
 	path = cfx-server-data
 	url = https://github.com/citizenfx/cfx-server-data.git
+[submodule "resources/[shockwave-mapeditor]"]
+	path = resources/[shockwave-mapeditor]
+	url = https://gitlab.com/shockwave-fivem/mapeditor
