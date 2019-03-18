@@ -101,10 +101,17 @@ async function trySpawn() {
 }
 
 on('onClientGameTypeStart', () => {
+    SetEntityCoords(PlayerPedId(), 1.5, 1.5, 1.5);
+    FreezeEntityPosition(PlayerPedId(), true);
+
     // async callbacks directly used as ref don't work, so trigger it from inside a void ref
     exports.spawnmanager.setAutoSpawnCallback(() => {
         trySpawn();
     });
 
     exports.spawnmanager.forceRespawn()
+});
+
+on('onClientGameTypeStop', () => {
+    DoScreenFadeOut(0);
 });
