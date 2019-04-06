@@ -1,9 +1,9 @@
-resource_manifest_version '05cfa83c-a124-4cfa-a768-c24a5811d8f9'
+resource_manifest_version '44febabe-d386-4d18-afbe-5e627f4af937'
 
 name 'vMenu'
 description 'Server sided trainer for FiveM with custom permissions, using a custom MenuAPI.'
 author 'Tom Grobbe (www.vespura.com)'
-version 'v2.2.2'
+version 'v3.0.2'
 url 'https://github.com/TomGrobbe/vMenu/'
 client_debug_mode 'false'
 server_debug_mode 'false'
@@ -11,17 +11,10 @@ experimental_features_enabled '0' -- leave this set to '0' to prevent compatibil
 
 files {
     'Newtonsoft.Json.dll',
+    'MenuAPI.dll',
     'config/locations.json',
     'config/addons.json',
 }
 
-client_scripts {
-    'MenuAPI.net.dll',
-    'vMenuShared.net.dll',
-    'vMenuClient.net.dll',
-}
-
-server_scripts {
-    'vMenuShared.net.dll',
-    'vMenuServer.net.dll',
-}
+client_script 'vMenuClient.net.dll'
+server_script 'vMenuServer.net.dll'
