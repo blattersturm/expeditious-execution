@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dat54>
+ <Version value="7314721" />
+ <NameTable>
+  <Item>dlc_expeditious\expeditious</Item>
+ </NameTable>
+ <Items>
+  <Item type="SimpleSound">
+   <Name>dlc_expeditious_spawn_l</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="270" />
+   </Header>
+   <ContainerName>dlc_expeditious/expeditious</ContainerName>
+   <FileName>expeditious_left</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_expeditious_spawn_r</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Unk06 value="90" />
+   </Header>
+   <ContainerName>dlc_expeditious/expeditious</ContainerName>
+   <FileName>expeditious_right</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SoundSet">
+   <Name>dlc_expeditious_sounds</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <Items>
+    <Item>
+     <ScriptName>expeditious_spawn</ScriptName>
+     <SoundName>dlc_expeditious_spawn_mt</SoundName>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>dlc_expeditious_spawn_mt</Name>
+   <Header>
+    <Flags value="0x00008005" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Unk02 value="65236" />
+    <Category>hash_02C7B342</Category>
+   </Header>
+   <AudioTracks>
+    <Item>dlc_expeditious_spawn_r</Item>
+    <Item>dlc_expeditious_spawn_l</Item>
+   </AudioTracks>
+  </Item>
+ </Items>
+</Dat54>
